@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COPACI Granjas Guadalupe</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+         ========================= -->
+    <header class="encabezado" id="inicio">
+
+        <div class="contenedor encabezado-contenido">
+
+            <a href="#inicio" class="logo">
+
+                <span class="logo-cuadro">GG</span>
+
+                <span class="logo-texto">
+                    <strong>COPACI</strong>
+                    <small>Granjas Guadalupe</small>
+                </span>
+
+            </a>
+
+            <nav class="menu">
+
+                <a href="#inicio" class="activo">Inicio</a>
+                <a href="#tramites">Trámites</a>
+                <a href="#avisos">Avisos</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             NUEVA INTERFAZ DE INICIO
+             ========================= -->
+        <section class="inicio">
+
+            <div class="contenedor inicio-contenido">
+
+                <div class="inicio-texto">
+
+                    <span class="etiqueta-inicio">
+                        ♡ BIENVENIDO A NUESTRO PORTAL
+                    </span>
+
+                    <h1>
+                        Tu comunidad,
+                        <span>más cerca.</span>
+                    </h1>
+
+                    <p>
+                        Bienvenido al portal del COPACI de
+                        Granjas Guadalupe. Aquí podrás consultar
+                        información, realizar gestiones y conocer
+                        los avisos importantes de nuestra comunidad.
+                    </p>
+
+                    <div class="inicio-botones">
+
+                        <a href="#tramites" class="boton-rosa">
+                            Ver trámites
+                            <span>→</span>
+                        </a>
+
+                        <a href="#avisos" class="boton-blanco">
+                            Ver avisos
+                        </a>
+
+                    </div>
+
+                    <div class="mini-info">
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Trámites</span>
+                        </div>
+
+                        <div>
+                            <strong>02</strong>
+                            <span>Avisos</span>
+                        </div>
+
+                        <div>
+                            <strong>03</strong>
+                            <span>Participación</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Tarjeta visual del inicio -->
+                <div class="inicio-tarjeta">
+
+                    <div class="decoracion circulo1"></div>
+                    <div class="decoracion circulo2"></div>
+
+                    <div class="tarjeta-bienvenida">
+
+                        <div class="corazon">
+                            ♡
+                        </div>
+
+                        <span>GRANJAS GUADALUPE</span>
+
+                        <h2>
+                            Unidos por nuestra comunidad
+                        </h2>
+
+                        <p>
+                            Información y servicios para
+                            mantenernos conectados.
+                        </p>
+
+                        <div class="linea"></div>
+
+                        <div class="estado">
+                            <span class="punto"></span>
+                            Portal disponible
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS DESTACADOS
+             ========================= -->
+        <section class="seccion servicios" id="tramites">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <div>
+
+                        <span class="etiqueta">
+                            SERVICIOS
+                        </span>
+
+                        <h2>
+                            ¿Qué necesitas hacer?
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Encuentra rápidamente los principales
+                        servicios disponibles para nuestra comunidad.
+                    </p>
+
+                </div>
+
+
+                <div class="tarjetas">
+
+
+                    <article class="tarjeta">
+
+                        <div class="icono">
+                            📝
+                        </div>
+
+                        <span class="numero">01</span>
+
+                        <h3>
+                            Reporte ciudadano
+                        </h3>
+
+                        <p>
+                            Registra una situación de tu colonia
+                            para darle seguimiento.
+                        </p>
+
+                        <button
+                            onclick="irContacto()"
+                            class="boton-tarjeta">
+                            Iniciar reporte
+                            <span>→</span>
+                        </button>
+
+                    </article>
+
+
+                    <article class="tarjeta">
+
+                        <div class="icono">
+                            ℹ
+                        </div>
+
+                        <span class="numero">02</span>
+
+                        <h3>
+                            Solicitud de información
+                        </h3>
+
+                        <p>
+                            Consulta requisitos y datos relacionados
+                            con los servicios comunitarios.
+                        </p>
+
+                        <a href="#contacto" class="boton-tarjeta">
+                            Consultar información
+                            <span>→</span>
+                        </a>
+
+                    </article>
+
+
+                    <article class="tarjeta">
+
+                        <div class="icono">
+                            ♡
+                        </div>
+
+                        <span class="numero">03</span>
+
+                        <h3>
+                            Participación vecinal
+                        </h3>
+
+                        <p>
+                            Conoce reuniones, actividades y espacios
+                            para colaborar.
+                        </p>
+
+                        <a href="#avisos" class="boton-tarjeta">
+                            Ver actividades
+                            <span>→</span>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             AVISOS
+             ========================= -->
+        <section class="seccion avisos" id="avisos">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <div>
+
+                        <span class="etiqueta">
+                            ACTUALIDAD
+                        </span>
+
+                        <h2>
+                            Avisos importantes
+                        </h2>
+
+                    </div>
+
+                    <a href="#contacto" class="boton-contorno">
+                        Ver todos →
+                    </a>
+
+                </div>
+
+
+                <div class="lista-avisos">
+
+
+                    <article class="aviso">
+
+                        <div class="fecha">
+                            <strong>30</strong>
+                            <span>SEP</span>
+                        </div>
+
+                        <div class="aviso-contenido">
+
+                            <span class="categoria">
+                                COMUNIDAD
+                            </span>
+
+                            <h3>
+                                Reunión vecinal informativa
+                            </h3>
+
+                            <p>
+                                Consulta las próximas actividades
+                                y acuerdos de participación comunitaria.
+                            </p>
+
+                        </div>
+
+                        <span class="flecha">
+                            →
+                        </span>
+
+                    </article>
+
+
+                    <article class="aviso">
+
+                        <div class="fecha">
+                            <strong>04</strong>
+                            <span>OCT</span>
+                        </div>
+
+                        <div class="aviso-contenido">
+
+                            <span class="categoria">
+                                SERVICIOS
+                            </span>
+
+                            <h3>
+                                Jornada de atención ciudadana
+                            </h3>
+
+                            <p>
+                                Espacio para orientar a vecinos sobre
+                                gestiones y servicios de la comunidad.
+                            </p>
+
+                        </div>
+
+                        <span class="flecha">
+                            →
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PARTICIPACIÓN
+             ========================= -->
+        <section class="participacion">
+
+            <div class="contenedor participacion-contenido">
+
+                <div>
+
+                    <span class="etiqueta clara">
+                        PARTICIPACIÓN CIUDADANA
+                    </span>
+
+                    <h2>
+                        Una comunidad informada
+                        participa mejor.
+                    </h2>
+
+                    <p>
+                        Mantente informado y participa en las
+                        actividades de Granjas Guadalupe.
+                    </p>
+
+                </div>
+
+                <a href="#contacto" class="boton-blanco grande">
+                    Contáctanos →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+    <footer class="pie" id="contacto">
+
+        <div class="contenedor pie-contenido">
+
+            <div class="pie-principal">
+
+                <div class="logo">
+
+                    <span class="logo-cuadro">
+                        GG
+                    </span>
+
+                    <span class="logo-texto">
+
+                        <strong>COPACI</strong>
+
+                        <small>
+                            Granjas Guadalupe
+                        </small>
+
+                    </span>
+
+                </div>
+
+                <p>
+                    Portal de información y gestión
+                    para nuestra comunidad.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Enlaces
+                </h3>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#tramites">Trámites</a>
+                <a href="#avisos">Avisos</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contacto
+                </h3>
+
+                <p>
+                    Atención ciudadana
+                </p>
+
+                <p>
+                    Granjas Guadalupe,<br>
+                    Estado de México
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="contenedor pie-final">
+
+            <span>
+                © 2026 COPACI Granjas Guadalupe
+            </span>
+
+            <a href="#inicio">
+                Volver arriba ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+    <script>
+
+        function irContacto() {
+
+            document
+                .getElementById("contacto")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+
+        }
+
+    </script>
+
+</body>
+
+</html>
